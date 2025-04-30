@@ -30,7 +30,7 @@ Define the purpose of the application. Possible use cases include:
 Create a simple prompt to initiate task organization.
 
 **Basic Prompt:**  
-> “Help me organize my tasks for today: buy groceries, complete homework, attend meeting at 3 PM.”
+  “Help me organize my tasks for today: buy groceries, complete homework, attend meeting at 3 PM.”
 
 **Expected Output:**  
 - A bulleted or ordered task list  
@@ -41,11 +41,11 @@ Create a simple prompt to initiate task organization.
 Incorporate user preferences, constraints, and desired style.
 
 **Refined Prompt:**  
-> “Organize these tasks into a daily schedule between 9 AM and 6 PM, including breaks and priority order:  
-> - Buy groceries  
-> - Complete homework  
-> - Attend meeting at 3 PM  
-> I prefer to do creative tasks in the morning and errands after lunch.”
+  “Organize these tasks into a daily schedule between 9 AM and 6 PM, including breaks and priority order:  
+  - Buy groceries  
+  - Complete homework  
+  - Attend meeting at 3 PM  
+  I prefer to do creative tasks in the morning and errands after lunch.”
 
 **Expected Output:**  
 - A time-blocked schedule  
@@ -57,12 +57,12 @@ Incorporate user preferences, constraints, and desired style.
 Introduce adaptive behaviors such as suggestions, self-care, and motivational support.
 
 **Advanced Prompt:**  
-> “Based on my productivity preferences (creative tasks in the morning, physical errands in the afternoon), generate a smart day plan from 9 AM to 6 PM with short breaks every 90 minutes. Include motivational quotes before major tasks.  
-> Tasks:  
-> - Finish presentation  
-> - Grocery shopping  
-> - Team meeting at 3 PM  
-> - 30-minute walk”
+  “Based on my productivity preferences (creative tasks in the morning, physical errands in the afternoon), generate a smart day plan from 9 AM to 6 PM with short breaks every 90 minutes. Include motivational quotes before major tasks.  
+  Tasks:  
+  - Finish presentation  
+  - Grocery shopping  
+  - Team meeting at 3 PM  
+  - 30-minute walk”
 
 **Expected Output:**  
 - A motivational quote or message before big tasks  
@@ -74,15 +74,15 @@ Introduce adaptive behaviors such as suggestions, self-care, and motivational su
 Structure the interaction to mimic how a user would engage with an actual app.
 
 **Initial User Prompt:**  
-> “Create my task plan for the day.”
+ “Create my task plan for the day.”
 
 **Model Response:**  
-> “As a starting point, please list your tasks, your available time window, and how you prefer to structure your day (e.g., focused work first, errands later).”
+ “As a starting point, please list your tasks, your available time window, and how you prefer to structure your day (e.g., focused work first, errands later).”
 
 **Follow-up Prompt:**  
-> “Tasks: Write blog, dentist appointment at 2 PM, laundry.  
-> Time: 10 AM – 5 PM.  
-> Prefer writing early, and errands after.”
+ “Tasks: Write blog, dentist appointment at 2 PM, laundry.  
+ Time: 10 AM – 5 PM.  
+ Prefer writing early, and errands after.”
 
 **Model Output:**  
 - A time-sensitive, personalized daily plan  
@@ -94,7 +94,7 @@ Structure the interaction to mimic how a user would engage with an actual app.
 Encourage reusable and customizable prompt templates that simulate memory and routine.
 
 **Reusable Prompt Template:**  
-> “Based on my previous schedule template, generate a day plan including the following tasks: [tasks]. Use the usual format and include motivational tips.”
+ “Based on my previous schedule template, generate a day plan including the following tasks: [tasks]. Use the usual format and include motivational tips.”
 
 **Benefits:**  
 - Acts as a pseudo-memory feature  
